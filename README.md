@@ -119,7 +119,7 @@ Differnt build types have different e2e tests sets. In order to run them look in
 ```
 Note: MMI runs a subset of MetaMask's e2e tests. To facilitate this, we have appended the `@no-mmi` tags to the names of those tests that are not applicable to this build type.
 
-### Changing dependencies
+## Changing dependencies
 
 Whenever you change dependencies (adding, removing, or updating, either in `package.json` or `yarn.lock`), there are various files that must be kept up-to-date.
 
